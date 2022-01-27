@@ -18,14 +18,6 @@ public class IntLinkedList {
 		return last;
 	}
 
-	public void setLast(Node last) {
-		this.last = last;
-	}
-
-	public void setNewNode(int newNode) {
-		this.newNode = newNode;
-	}
-
 	public void push(int i) {
 		if (last == null)
 			last = new Node(i);
