@@ -12,6 +12,22 @@ public class DefaultCountingOutRhymer {
         return total;
     }
 
+    public void setTotal(int total) {
+        this.total = total;
+    }
+
+    public int[] getNumbers() {
+        return numbers;
+    }
+
+    public static int getERROR() {
+        return ERROR;
+    }
+
+    public static int getSIZE() {
+        return SIZE;
+    }
+
     public void countIn(int in) {
         if (!isFull())
             numbers[++total] = in;
