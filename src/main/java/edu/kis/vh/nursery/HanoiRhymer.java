@@ -4,6 +4,15 @@ public class HanoiRhymer extends DefaultCountingOutRhymer {
 
 	private int totalRejected = 0;
 
+	@Override
+	public int getTotal() {
+		return super.getTotal();
+	}
+
+	public void setTotalRejected(int totalRejected) {
+		this.totalRejected = totalRejected;
+	}
+
 	public int reportRejected() {
 		return totalRejected;
 	}
